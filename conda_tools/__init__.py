@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+
+__version__ = "0.0.3"
+
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="[%(asctime)s] - %(levelname)s - %(filename)s - %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
